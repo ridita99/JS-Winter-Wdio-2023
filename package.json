@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ridita99/JS-Winter-wdio-2023#readme",
   "dependencies": {
     "@wdio/cli": "^8.5.6",
-    "chai": "^4.3.7"
+    "chai": "^4.3.7",
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@wdio/local-runner": "^8.5.6",
