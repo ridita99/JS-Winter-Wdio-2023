@@ -1,13 +1,12 @@
+const { describe, it } = require("mocha");
 
-describe // comes from mocha framework 
-describe('launch page', () => {
+describe('Launch Page', () => {
 
-    it('Verify we can lauch a page ', async () => { // it cmae ofrom mocha
+    it('Verify we can launch a page', async () => {
 
-        await browser.url('https://www.cnn.com');
+        await browser.url('https://www.amazon.com');
 
-        browser.pause(10000)
-
+        await browser.pause(10000);
 
 
     })
